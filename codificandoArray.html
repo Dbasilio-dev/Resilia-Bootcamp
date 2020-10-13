@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code</title>
+</head>
+<body>
+    <script>
+        
+        function cifraCesar(deslocamento, nome) {
+            var resp = []
+            for(i = 0; i < nome.length; i++) {
+                var decifrando = nome.charCodeAt(i)
+                decifrando += deslocamento
+                resp.push(decifrando)
+            }
+            return resp
+        }
+        function decodeCesar(deslocamento, mensagemCifrada) {
+            var decode = []
+            for(i = 0; i < mensagemCifrada.length; i++) {
+                var decifrando = String.fromCharCode(mensagemCifrada[i])
+                decode.push(decifrando)
+            }
+            return decode
+        }
+        
+       var mensagemCodificada = cifraCesar(10, "Daniel");
+       var MensagemDecode = decodeCesar(10, mensagemCodificada)
+       document.write(MensagemDecode)
+    </script>
+    
+</body>
+</html>
