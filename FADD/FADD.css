@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: #c8d2d6;
+
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30pt;
+    padding: 20px;
+    font-style: italic;
+}
+
+.data {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15pt;
+    font-style: italic;
+}
+
+.title {
+    
+    font-weight: bold;
+}
+
+.explanation {
+    font-weight: bold;
+    font-size: 16pt;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#botao-mostrar {
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 0.5px solid #e2dfde;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#botao-mostrar:hover {
+    background-color:#e2dfde;
+    
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.container {
+    margin: 10px;
+}

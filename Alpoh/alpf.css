@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 
+
             /* Estilizando Base */
 .tituloJogo {
     padding: 50px;
@@ -72,6 +73,7 @@ body {
     font-family: 'Finger Paint', cursive;
     outline: none;
     cursor: pointer;
+    
 }
 
 .action-button {
