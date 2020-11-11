@@ -1,8 +1,11 @@
-body {
-    text-align: center;
-    background-color: #c8d2d6;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
-    
+body {
+    background-color: #c8d2d6;  
 }
 
 h1 {
@@ -10,6 +13,22 @@ h1 {
     font-size: 30pt;
     padding: 20px;
     font-style: italic;
+    text-align: center;
+}
+
+.campo-pesquisa {
+    text-decoration: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 33px;
+    outline: none;
+
+}
+
+.container-pesquisa {
+    display: flex;
+    padding-left: 20px;
 }
 
 .data {
@@ -31,7 +50,11 @@ h1 {
     text-align: center;
 }
 
-#botao-mostrar {
+.container-buttons {
+    text-align: center;
+}
+
+.botao {
     text-decoration: none;
     border: none;
     padding: 10px 20px;
@@ -39,20 +62,36 @@ h1 {
     background-color: white;
     border: 0.5px solid #e2dfde;
     outline: none;
-    border-radius: 5px;
     cursor: pointer;
     margin-bottom: 20px;
 }
 
-#botao-mostrar:hover {
-    background-color:#e2dfde;
-    
+#dia-anterior, #botao-mostrar, #dia-posterior {
+    border-radius: 5px;
 }
+
+#dia-anterior:hover, #botao-mostrar:hover, #dia-posterior:hover {
+    background-color:#e2dfde;
+}
+
+#botao-pesquisa {
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #e2dfde;
+}
+
+#botao-pesquisa:hover {
+    transition: 0.25s;
+    background-color: lightgreen;
+    color: white;
+}
+
 
 .container-principal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
     
     
 }

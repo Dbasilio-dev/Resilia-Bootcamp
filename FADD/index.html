@@ -9,14 +9,23 @@
     </head>
     <body>
         <h1>Foto de Astronomia do Dia</h1>
-        
+        <div class="container-pesquisa">
+            <input type="text" class="campo-pesquisa" placeholder="YYYY-MM-DD">
+            <button id="botao-pesquisa" class="botao">Buscar</button>
+        </div>
         <div class="container-principal">
             <p class="data"></p>
             <p class="title"></p>
         </div>
         <p class="explanation"></p>
-        <button id ="botao-mostrar">Mostrar</button>
-        <script src="FADD.js"></script>
+        <div class="container-buttons">
+            <!-- <button id ="dia-anterior" class="botao"> < </button> -->
+            <button id ="botao-mostrar" class="botao">Mostrar</button>
+            <!-- <button id ="dia-posterior" class="botao"> > </button> -->
+        </div>
+        <script src="modelFADD.js"></script>
+        <script src="viewerFADD.js"></script>
+        <script src="controllerFADD.js"></script>
         
         
     </body>
