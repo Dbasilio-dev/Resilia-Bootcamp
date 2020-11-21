@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap');
+
+
+body {
+    color: #5ebb49;
+    background-color: #444444;
+    font-family: 'Texturina', serif;
+}
+
+.titulo-site {
+    text-align: center;
+    font-size: 40pt;
+}
+.container-pesquisa {
+    padding: 50px;
+    background-color: black;
+}
+
+
+.container-input {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container-conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.container-info {
+    display: flex;
+}
+
+.profile-name {
+    padding: 5px;
+    text-align: center;
+    font-size: 20pt;
+    /* border: 0.5px solid  #5ebb49; */
+    
+
+}
+
+.invisivel {
+    display: none;
+}
+
+.repos, .repo-link, .repo-language {
+    padding: 10px;
+    border: 0.5px solid  #5ebb49;
+
+}
